@@ -1,5 +1,5 @@
 public class HelloJava {
-// for now we will just create a class that is the same name as the 
+// for now we will just create a class that is the same name as the File
 	public static void main(String[] args) {
 		//most classes will have a method called "main"
 		//this is the code that will run without being called
@@ -72,6 +72,7 @@ public class HelloJava {
 		System.out.println(quotient);
 		
 		// this example demonstrates the use of a double 
+		// If you need a number to act as a double you can just put a .0 on it
 		double dblQuotient = 7.0 / 3.0;
 		System.out.println(dblQuotient);
 		
@@ -95,27 +96,27 @@ public class HelloJava {
 		int a = 12;
 		a -= 3;
 		// 12 minus 3 is 9 so the result will be 9
-		System.out.println("when a starts as 12; a -= 3; will yeild " + a);
+		System.out.println("when a starts as 12; a -= 3; will yield " + a);
 		
 		a = 12;
 		a += 3;
 		// 12 plus 3 is 15 so the result will be 15
-		System.out.println("when a starts as 12; a += 3; will yeild " + a);
+		System.out.println("when a starts as 12; a += 3; will yield " + a);
 		
 		a = 12;
 		a /= 3;
 		// 12 divided by 3 is 4 so the result will be 4
-		System.out.println("when a starts as 12; a /= 3; will yeild " + a);
+		System.out.println("when a starts as 12; a /= 3; will yield " + a);
 		
 		a = 12;
 		a *= 3;
 		// 12 times 3 is 36 so the result will be 36
-		System.out.println("when a starts as 12; a *= 3; will yeild " + a);
+		System.out.println("when a starts as 12; a *= 3; will yield " + a);
 		
 		a = 12;
 		a %= 5;
 		// 12 modulus 5 is 2 so the result will be 2
-		System.out.println("when a starts as 12; a %= 5; will yeild " + a);
+		System.out.println("when a starts as 12; a %= 5; will yield " + a);
 		
 	
 		// There are three operators used for logical comparison
@@ -137,10 +138,16 @@ public class HelloJava {
 		
 		//the above code also demonstrates the if/else 
 		
+		// the single = is used for "assignment"
+		// this is when you are assigning a value to a variable
+		
 		int x = 12;
 		int y = 12;
 		int z = 13;
 		
+		// the double == is use for comparision
+		// the following if statement is asking 
+		// "is x equal to y?""
 		if(x == y)
 		{
 			// This is true!
